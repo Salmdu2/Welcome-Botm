@@ -25,7 +25,7 @@ const DarkMan = new Discord.Client();
 const prefix = "D!";
 
 
-DarkMan.login("");
+DarkMan.login("OTg0ODM4NDA4OTI3MDg0NTc0.Gi0k-r._zauYEySz24tjGaaNQMaY28ADJFpNhr0G5PCQM");
 DarkMan.on("ready", async () => {
   console.log(`Logged in as ${DarkMan.user.username}!`);
   DarkMan.user.setStatus("ONLINE");
@@ -46,17 +46,17 @@ const embed = new Discord.MessageEmbed()
 .setAuthor("Prefix [ D! ]","")
 .setDescription(` 
 **
-・┊welcome [change channel]
-・┊left [change channel]
+・┊welcome [993863097871769610]
+・┊left [983321589393260571]
 **
 **[ invite ]**
-**[ click here ](https://discord.com/api/oauth2/authorize?client_id=743869029638471802&permissions=8&scope=bot)** 
+**[ click here ](https://discord.com/api/oauth2/authorize?client_id=984838408927084574&permissions=8&scope=bot)** 
 **[ support ]**
-**[ click here ](https://discord.gg/tstcyhgQeS)**
+**[ click here ](https://discord.gg/Y639a9k)**
  `)
     
-    .setFooter(` Remix Bot ✨ | Coded by , DarkMan`, DarkMan.user.avatarURL)
-    .setURL("https://discord.gg/YSx9p3e7F8")
+    .setFooter(` Remix Bot ✨ | Coded by ,SALM STAFF`, SALM STAFF.user.avatarURL)
+    .setURL("https://discord.gg/Y639a9k")
       
     message.channel.send(embed);
       message.react("❤️");
@@ -73,9 +73,9 @@ DarkMan.on("guildMemberAdd", member => {
   if (!channel) return;
   const joinembed = new Discord.MessageEmbed()
     .setTitle(``)
-    .setAuthor(`Welcome Bot`, `https://cdn.discordapp.com/avatars/828218881989935105/479953e51dadf4f38c5bc72c912193c5.webp?size=1024`)
+    .setAuthor(`Welcome Bot`, `https://discord.com/api/oauth2/authorize?client_id=984838408927084574&permissions=8&scope=bot `)
     .setColor("RANDOM")
-    .setThumbnail(DarkMan)
+    .setThumbnail(SALM STAFF)
     .addField(
       "**name** : ",
       `${member}
@@ -83,7 +83,7 @@ DarkMan.on("guildMemberAdd", member => {
     )
     .addField(
       "**Welcome**",
-      `Welcome to the server, ${member}
+      `BXERHATE BO SERVER SALM STAFF, ${member}
     ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`
     )
     .addField(
@@ -91,7 +91,7 @@ DarkMan.on("guildMemberAdd", member => {
       "**[" + `${member.id}` + "]**"
     )
     .addField(
-      "**All Member**",
+      "**HAME Member**",
       `${member.guild.memberCount}
       ◈ ━━━━━━━ ⸙ ━━━━━━━ ◈`
     )
@@ -102,12 +102,11 @@ DarkMan.on("guildMemberAdd", member => {
     .setTimestamp();
   channel.send(joinembed);
 });
-////////////// code left
-DarkMan.on("guildMemberRemove", member => {
+////////////// code leftSALM STAFF.on("guildMemberRemove", member => {
   const channel = member.guild.channels.cache.find(
     channel => channel.name === "・┊left"
   );
-  let DarkMan = member.user.avatarURL();
+  let SALM STAFF = member.user.avatarURL();
   if (!channel) return;
   const joinembed = new Discord.MessageEmbed()
     .setTitle(``)
